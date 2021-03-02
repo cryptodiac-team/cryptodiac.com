@@ -12,6 +12,9 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Cryptodiac Zodiac NFT' },
+      { hid: 'og:title', name: 'og:title', content: 'Cryptodiac Zodiac NFT' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'cryptodiac.com' },
+      { hid: 'og:type', name: 'og:type', content: 'article' },
       { hid: 'og:image', property: 'og:image', content: 'https://github.com/cryptodiac-team/cryptodiac.com/blob/main/static/header.png?raw=true' }
     ],
     link: [
