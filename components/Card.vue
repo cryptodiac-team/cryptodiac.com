@@ -92,13 +92,13 @@
     
     <div
         :id="card.image"
-        class="top-0 left-0 hidden fixed h-28 w-28 z-50"
+        class="top-0 left-0 hidden fixed h-40 w-40 z-50"
         v-click-outside="closePreview"
       >
         <div
-          class="bg-card border-2 boder-solid border-card rounded-md w-28 h-28"
+          class="flex justify-center items-center bg-card border-2 boder-solid border-card rounded-md w-40 h-40"
         >
-          <img :src="getColorImgUrl()" alt="" class="w-28 h-28"/>
+          <img :src="getColorImgUrl()" alt="" class="w-32 h-32"/>
         </div>
         <div class="flex justify-center mt-1">
           <svg id="triangle" width="10%" height="10%" viewBox="0 0 100 100">
@@ -155,8 +155,8 @@ export default {
       this.selectedColor = color;
 
       var preview = document.getElementById(this.card.image);
-      var marginX = -55;
-      var marginY = -150;
+      var marginX = -80;
+      var marginY = -200;
       preview.style.display = "block";
       window.onmousemove = function (e) {
         var x = e.clientX,

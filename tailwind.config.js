@@ -1,8 +1,20 @@
 module.exports = {
-    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    purge: [
+        './components/**/*.{vue,js}',
+        './layouts/**/*.vue',
+        './pages/**/*.vue',
+        './plugins/**/*.{js,ts}',
+        './nuxt.config.{js,ts}',
+      ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            spacing: {
+                '72': '18rem',
+                '84': '21rem',
+                '96': '24rem',
+              }
+        },
         backgroundColor: theme => ({
             ...theme('colors'),
             'button': '#F7C948',

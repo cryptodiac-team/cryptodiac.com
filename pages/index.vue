@@ -57,9 +57,7 @@
               </div>
             </div>
           </div>
-          <div class="mx-6 text-title text-2xl mt-6">
-                Timeline
-              </div>
+          <div class="mx-6 text-title text-2xl mt-6">Timeline</div>
           <div class="w-full flex justify-center">
             <Timeline class="w-10/12" :currentWeek="week" />
           </div>
@@ -112,7 +110,9 @@
           <div id="about-us" class="mx-6 grid grid-cols-1 sm:grid-cols-2">
             <div class="">
               <div class="text-title text-2xl">About us</div>
-              <div class="ml-4 mt-4 lg:mt-8 text-xs text-title">Designed by</div>
+              <div class="ml-4 mt-4 lg:mt-8 text-xs text-title">
+                Designed by
+              </div>
               <div class="ml-8 text-2xl text-body">Gonekrit</div>
               <div class="-mt-2 ml-8 text-description text-base">
                 Thai artist,designer and content creator
@@ -126,9 +126,7 @@
                   class="w-full object-scale-down"
                 />
               </div>
-              
             </div>
-            
           </div>
         </div>
         <div class="min-w-screen py-2 bg-footer flex flex-row justify-between">
@@ -136,31 +134,30 @@
             id="footer"
             class="flex flex-col pl-2 text-tools-bar place-items-center text-xs w-full"
           >
-           
-            <div class="flex flex-col  w-full">
+            <div class="flex flex-col-reverse h-full w-full">
+              <div class="flex w-full">
+                  <div class="text-xs text-sub-footer w-full">
+                    2021 CryptoDiac Project
+                  </div>
+                </div>
               <div class="w-full">
+                
                 <div class="flex flex-row">
                   <a href="https://twitter.com/Cryptodiac1">
-                    <img src="/twlogo.png" alt="" class="w-10 h-8 pr-2"/>
+                    <img src="/twlogo.png" alt="" class="w-10 h-8 pr-2" />
                   </a>
                   <a href="https://github.com/cryptodiac-team">
-                    <img src="/ghlogo.png" alt="" class="w-10 h-8 pr-2"/>
+                    <img src="/ghlogo.png" alt="" class="w-10 h-8 pr-2" />
                   </a>
                   <a href="">
-                    <img src="/tglogo.png" alt="" class="w-10 h-8 pr-2"/>
+                    <img src="/tglogo.png" alt="" class="w-10 h-8 pr-2" />
                   </a>
                 </div>
                 <div class="text-sm w-full">For more information</div>
                 <div class="-mt-2 text-sm w-full">
-                  Please contact : admin@cryptodiac.com
+                  Contact : admin@cryptodiac.com
                 </div>
               </div>
-              <div class="flex sm:items-end w-full">
-                <div class="text-xs text-sub-footer w-full">
-                2021 CryptoDiac Project
-              </div>
-              </div>
-              
             </div>
           </div>
           <div class="w-36 pr-4">
@@ -199,7 +196,7 @@ export default {
   },
   data: function () {
     return {
-      sold_item: 12,
+      sold_item: 0,
       amount_item: 144,
       expandIndex: "",
       week: 1,
