@@ -22,7 +22,7 @@
             "11": { "color": "orange", "sold": false },
             "12": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890859245721092097"
     },
     {
         "name": "Taurus, The Bull",
@@ -48,7 +48,7 @@
             "11": { "color": "red", "sold": false },
             "12": { "color": "black", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890858146209464321"
     },
     {
         "name": "Gemini, The Twins",
@@ -74,7 +74,7 @@
             "6": { "color": "orange", "sold": false },
             "9": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890857046697836545"
     },
     {
         "name": "Cancer, The Crab",
@@ -100,7 +100,7 @@
             "12": { "color": "orange", "sold": false },
             "4": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890855947186208769"
     },
     {
         "name": "Leo, The Lion",
@@ -126,7 +126,7 @@
             "4": { "color": "orange", "sold": false },
             "6": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890854847674580993"
     },
     {
         "name": "Virgo, The Maiden",
@@ -152,7 +152,7 @@
             "3": { "color": "orange", "sold": false },
             "8": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890853748162953217"
     },
     {
         "name": "Libra, The Balance Scales",
@@ -178,7 +178,7 @@
             "1": { "color": "orange", "sold": false },
             "10": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890852648651325441"
     },
     {
         "name": "Scorpio, The Scorpion",
@@ -204,7 +204,7 @@
             "2": { "color": "orange", "sold": false },
             "11": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890851549139697665"
     },
     {
         "name": "Sagittarius, The Centaur",
@@ -230,7 +230,7 @@
             "5": { "color": "orange", "sold": false },
             "6": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890850449628069889"
     },
     {
         "name": "Capricorn, The Sea Goat",
@@ -256,7 +256,7 @@
             "10": { "color": "orange", "sold": false },
             "2": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890848250604814337"
     },
     {
         "name": "Aquarius, The Water Bearer",
@@ -282,7 +282,7 @@
             "8": { "color": "orange", "sold": false },
             "1": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890847151093186561"
     },
     {
         "name": "Pisces, The Twin Fishes",
@@ -308,6 +308,6 @@
             "7": { "color": "orange", "sold": false },
             "3": { "color": "brown", "sold": false }
         },
-        "link": ""
+        "link": "https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/67815993374143758039905312178711871228547278668909238795891890846051581558785"
     }
 ]

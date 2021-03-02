@@ -28,11 +28,11 @@
           </div>
         </div>
         <div class="flex justify-center my-6">
-          <div
+          <a :href="card.link"
             class="bg-button px-8 pt-3 pb-3 rounded-3xl text-button text-2xl shadow-4x"
           >
             View on Opensea
-          </div>
+          </a>
         </div>
 
         <div class="mx-6">
@@ -112,7 +112,7 @@
 
 <script>
 import ClickOutside from "vue-click-outside";
-import colors from "./colors.json";
+import colors from "~/assets/colors.json";
 export default {
   name: "Card",
   props: {

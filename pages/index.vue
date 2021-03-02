@@ -170,8 +170,8 @@
 </template>
 
 <script>
-import items from "./items.json";
-import articles from "./articles.json";
+import items from "~/assets/items.json";
+import articles from "~/assets/articles.json";
 import ClickOutside from "vue-click-outside";
 export default {
   name: "App",
